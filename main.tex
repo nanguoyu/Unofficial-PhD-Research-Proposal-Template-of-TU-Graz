@@ -1,0 +1,104 @@
+\documentclass{article}
+
+\usepackage{ProposalStyle}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{fancyhdr}       % header
+\usepackage{graphicx}       % graphics
+\usepackage{array}
+ \usepackage{color}
+\graphicspath{{media/}}     % organize your images and other figures under media/ folder
+
+
+%Header
+\pagestyle{fancy}
+\thispagestyle{empty}
+\rhead{ \textit{ }} 
+% Update your Headers here
+% \fancyhead[LO]{Running Title for Header}
+% \fancyhead[RE]{Firstauthor and Secondauthor} % Firstauthor et al. if more than 2 - must use \documentclass[twoside]{article}
+
+
+%% Title
+\title{Many Faces of Deep Model Compression}
+%% \student{1}{2}{3}: #1 Name. #2 Student Number. #3 Advisor Name
+\student{Dong Wang}{12241521}{bak. Assoc.Prof. Dr.rer.nat. MSc Olga Saukh}
+% \author{
+%   Dong Wang \\
+% \texttt{ Institute of Technical Informatics, TU Graz, Austria}\\
+% \texttt{dong.wang@tugraz.at}\\
+% }
+
+\begin{document}
+\maketitle
+
+
+
+% \begin{abstract}
+% \lipsum[1]
+% \end{abstract}
+
+
+% keywords can be removed
+% \keywords{First keyword \and Second keyword \and More}
+
+\section{Abstract}
+\subsection{Introduction}
+\lipsum[1-3]\cite{LTH}
+\subsection{Related work}
+\label{challenges}
+\lipsum[4-5]\cite{DualLTH}
+
+\section{Research questions}
+\lipsum[6]:
+% 
+\begin{itemize}
+    \item \lipsum[7]
+    % 
+    \item \lipsum[8]
+    % 
+    \item \lipsum[9]
+    %
+    \item \lipsum[10]
+    % 
+\end{itemize}
+
+\section{Research methodology}
+\lipsum[11-12]
+
+% \subsection{Time table}
+% 
+% \begin{center}
+% \begin{tabular}{ |c|m{8cm}| } 
+%   \hline
+%   Academic year& Task \\ 
+%   \hline
+%   The 1st academic year &  I will take courses and do literature review to keep up with the SOTA research; I plan to focus on efficient model and implement some evaluation experiments for evaluating LTH.\\ 
+%   \hline
+%   The 2nd academic year & TBD\\
+%   \hline
+%   The 3rd academic year & TBD\\
+%   \hline
+%   The 4th academic year & TBD\\
+%   \hline
+%   The 5th academic year & TBD \\
+%   \hline
+% \end{tabular}
+% \end{center}
+
+
+%Bibliography
+\bibliographystyle{plain}  
+\bibliography{references}  
+% \section{References}
+
+
+\end{document}
